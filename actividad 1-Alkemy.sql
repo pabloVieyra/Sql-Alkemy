@@ -1,9 +1,9 @@
 SELECT * FROM demo;
 CREATE table CURSO (
-Codigo_de_curso INTEGER PRIMARY KEY ,
+Codigo_de_curso INTEGER PRIMARY KEY  NOT NULL,
 Nombre varchar NOT NULL,
 Descripcion varchar,
-Turno varchar 
+Turno varchar NOT NULL 
 );
 
 ALTER TABLE CURSO ADD COLUMN cupo INTEGER;
