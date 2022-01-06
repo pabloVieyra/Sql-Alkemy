@@ -1,6 +1,6 @@
 SELECT * FROM demo;
 CREATE table CURSO (
-Codigo_de_curso INTEGER PRIMARY KEY  NOT NULL,
+Codigo_de_curso INTEGER PRIMARY KEY ,
 Nombre varchar NOT NULL,
 Descripcion varchar,
 Turno varchar NOT NULL 
